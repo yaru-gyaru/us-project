@@ -272,45 +272,7 @@ JolTap решает эту задачу:
     └──────────────► PostgreSQL
 ```
 
-## Структура проекта
 
-```text
-joltap/
-├── app/
-│   ├── api/
-│   │   ├── geocode/
-│   │   ├── optimize/
-│   │   ├── routes/
-│   │   └── auth/
-│   ├── dashboard/
-│   ├── routes/
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── map/
-│   │   ├── RouteMap.tsx
-│   │   ├── MapMarker.tsx
-│   │   └── RouteLayer.tsx
-│   ├── route/
-│   │   ├── AddressSearch.tsx
-│   │   ├── StopList.tsx
-│   │   ├── TripSettings.tsx
-│   │   └── RouteResult.tsx
-│   └── ui/
-├── lib/
-│   ├── geocoding/
-│   ├── routing/
-│   ├── optimization/
-│   ├── database/
-│   └── validation/
-├── prisma/
-│   └── schema.prisma
-├── public/
-├── tests/
-├── .env.example
-├── package.json
-└── README.md
-```
 
 ## Основные страницы
 
